@@ -1,4 +1,4 @@
-- Start Date: (fill me in with today's date, YYYY-MM-DD)
+- Start Date: (fill me in with today's date, 2020-03-12)
 - RFC PR: (after opening the RFC PR, update this with a link to it and update the file name)
 - Relevant Project: (e.g. EaselJS, SoundJS, PreloadJS, TweenJS, ...)
 
