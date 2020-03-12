@@ -30,7 +30,7 @@ add a link to the PR in the header of the RFC.
 * Build consensus and integrate feedback. RFCs that have broad support
 are much more likely to make progress than those that don't receive any
 comments.
-* Eventually, the core eam will decide whether the RFC is a candidate
+* Eventually, the core team will decide whether the RFC is a candidate
 for inclusion in CreateJS.
 * ...
 
