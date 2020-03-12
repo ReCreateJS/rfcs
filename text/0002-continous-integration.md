@@ -1,5 +1,5 @@
 - Start Date: 2020-03-07
-- RFC PR: #2
+- RFC PR: https://github.com/ReCreateJS/rfcs/pull/2
 - Relevant Project: All CreateJs Projects
 
 # Continuous Integration
