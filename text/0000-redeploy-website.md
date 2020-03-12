@@ -1,58 +1,39 @@
 - Start Date: (fill me in with today's date, 2020-03-12)
 - RFC PR: (after opening the RFC PR, update this with a link to it and update the file name)
-- Relevant Project: (e.g. EaselJS, SoundJS, PreloadJS, TweenJS, ...)
+- Relevant Project: (All CreateJS)
 
-# <RFC title>
+# Redeploy Website
 
 ## Summary
 
-> One paragraph explanation of the feature.
+Move the createjs.com home page so that it is hosted on Github. 
 
 ## Motivation
 
-> Why are we doing this? What use cases does it support? What is the expected
-outcome?
+The createjs homepage is an essential part of the project.  It has information for users, tutorials, demonstrations and a link to the current build of each module and the combined build.  Notably, the current and combined builds have not been updated to reflect updates to the source files.  The home page needs to be maintained and updated.
 
 ## Detailed design
 
-> This is the bulk of the RFC.
+1. Create a new repository in the CreateJS space called HomePage.  
 
-> Explain the design in enough detail for somebody
-familiar with the project to understand, and for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
-Use definitive language, rather than proposing ideas here. The content of this
-RFC can be discussed and refined on GitHub. Any unanswered questions can also
-be written in the final 'Unresolved questions' section.
+2. Copy all the website files to that repo.
 
-## How we teach this
+3. On Github settings, add createjs.com as a custom domain that points to that repo.
 
-> What names and terminology work best for these concepts and why? How is this
-idea best presented? As a continuation of existing patterns, or as a
-wholly new one?
-
-> Would the acceptance of this proposal mean the CreateJS guides must be
-re-organized or altered? Does it change how CreateJS is taught to new users
-at any level?
-
-> How should this feature be introduced and taught to existing users?
+4. Update the DNS for createjs.com so that it is served by Github.
 
 ## Drawbacks
 
-> Why should we *not* do this? Please consider the impact on teaching CreateJS,
-on the integration of this feature with other existing and planned features,
-on the impact of the API churn on existing apps, etc.
-
-> There are tradeoffs to choosing any path, please attempt to identify them here.
+It's hard to know what GrantSkinner will think about this and  whether they'd be okay with giving up the keys to the homepage.  Maybe it has some IP value.
 
 ## Alternatives
 
-> What other designs have been considered? What is the impact of not doing this?
+An alternative would be for someone who works at GrantSkinner to make changes as requested.
 
-> This section could also include prior art, that is, how other frameworks in the same domain have solved this problem.
+Another option would be to make a new homepage for createjs with a new domain name.  But even if that is done, it would still be a good idea to host it on Github.
 
 ## Unresolved questions
 
-> Optional, but suggested for first drafts. What parts of the design are still
-TBD?
+I'm assuming that the homepage is a static site that just includes HTML, javascript, css and images.
+
+It would be good to check how the site was initially built.  Looks like Bootstrap was used.  I don't know if any other generating software was used to build the html files or whether each page was manually created.  Looking at the number of pages and simplicity, I think it could be feasible to just edit it in place rather than rebuilding from any source.
