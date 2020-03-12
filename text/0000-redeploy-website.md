@@ -1,6 +1,6 @@
-- Start Date: (fill me in with today's date, 2020-03-12)
+- Start Date: 2020-03-12
 - RFC PR: (after opening the RFC PR, update this with a link to it and update the file name)
-- Relevant Project: (All CreateJS)
+- Relevant Project: All CreateJS
 
 # Redeploy Website
 
@@ -25,6 +25,10 @@ The createjs homepage is an essential part of the project.  It has information f
 ## Drawbacks
 
 It's hard to know what GrantSkinner will think about this and  whether they'd be okay with giving up the keys to the homepage.  Maybe it has some IP value.
+
+## Justification
+
+The advantage of hosting it on Github is that changes can be made by consensus and in a transparent way.  The homepage would be maintained in the same way that the source files.  This would allow people to view and comment on any changes.
 
 ## Alternatives
 
