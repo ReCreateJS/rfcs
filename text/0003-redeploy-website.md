@@ -1,5 +1,5 @@
 - Start Date: 2020-03-12
-- RFC PR: (after opening the RFC PR, update this with a link to it and update the file name)
+- RFC PR: https://github.com/ReCreateJS/rfcs/pull/3
 - Relevant Project: All CreateJS
 
 # Redeploy Website
