@@ -1,5 +1,5 @@
 - Start Date: 2020-03-13
-- RFC PR: (after opening the RFC PR, update this with a link to it and update the file name)
+- RFC PR: https://github.com/ReCreateJS/rfcs/pull/5
 - Relevant Project: EaselJS
 
 # Stage Transforms
