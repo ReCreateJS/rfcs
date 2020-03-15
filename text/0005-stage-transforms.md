@@ -97,7 +97,7 @@ The stageTransformable property would go into the documentation along with an ex
 
 ## Drawbacks
 
-This will break existing code but can be turned off to not break existing code.  To update to a new version of CreateJS but keep the existing code working, the stageTransformable could be set to false:
+This will break existing code that solved the problem externally but can be turned off to not break existing code.  To update to a new version of CreateJS but keep the existing code working, the stageTransformable could be set to false:
 
 ```
 createjs.stageTransformable = false;
