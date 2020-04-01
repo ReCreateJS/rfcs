@@ -1,6 +1,6 @@
 # CreateJS Consortium
 
-The GSkinner team is handing the CreateJS project over to the community.
+The GSkinner team is encouraging the community to get involved in in the maintenance and direction of CreateJS.
 
 A plan needs to be made clear to give confidence that this is a wise decision.
 
